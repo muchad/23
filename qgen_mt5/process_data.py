@@ -13,8 +13,8 @@ import nltk
 import requests
 
 _URL = "https://muchad.github.io/23/"
-_DEV_FILE = "me-dev-v2.0.json"
-_TRAINING_FILE = "me-train-v2.0.json"
+_DEV_FILE = "sm-dev-v2.0.json"
+_TRAINING_FILE = "sm-train-v2.0.json"
 
 def get_correct_alignment(context, answer):
     gold_text = answer['text']
